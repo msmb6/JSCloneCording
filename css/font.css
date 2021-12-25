@@ -1,0 +1,44 @@
+@font-face {
+  font-family: dragon;
+  src: url("../font/dragon_alphabet.ttf");
+}
+
+@font-face {
+  font-family: typo3-normal;
+  src: url("../font/typo3-Normal.ttf");
+}
+
+@font-face {
+  font-family: typo3-bold;
+  src: url("../font/typo3-Medium.ttf");
+}
+
+@font-face {
+  font-family: skyrim;
+  src: url("../font/DarkXShadowSkyrim.ttf");
+}
+
+@font-face {
+  font-family: noto;
+  src: url("../font/NotoSansKR-Medium.otf");
+}
+
+.dragon {
+  font-family: dragon;
+}
+
+.typo {
+  font-family: typo3-normal;
+}
+
+.typo-b {
+  font-family: typo3-bold;
+}
+
+.skyrim {
+  font-family: skyrim;
+}
+
+.noto {
+  font-family: noto;
+}

@@ -1,0 +1,152 @@
+@import "font.css";
+
+.hidden {
+  display: none;
+}
+
+html {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+ul {
+  width: 30%;
+
+  list-style: none;
+
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+  display: inline-block;
+}
+
+span {
+  font-family: noto;
+}
+
+.container {
+  z-index: 4;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.filter {
+  z-index: 2;
+}
+
+.bgImage {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto auto;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.hey {
+  width: 50%;
+  margin-top: 3%;
+}
+
+#ask {
+  width: 18vw;
+  height: 4vh;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5vw;
+  font-family: noto;
+}
+
+#answer {
+  background: none;
+  border: white solid 1px;
+  border-radius: 30px;
+  width: 8vw;
+  color: white;
+  font-size: 1.5vw;
+  font-family: skyrim;
+  margin-left: 1%;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 2vw;
+  font-family: skyrim;
+}
+
+#clock {
+  font-size: 10vw;
+  font-family: skyrim;
+  margin-bottom: 0;
+  margin-top: 5%;
+}
+
+.todoButton {
+  background: none;
+  border: none;
+  margin-left: 0;
+  float: right;
+}
+
+.todoSpan {
+  float: middle;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 1.2vw;
+}
+#todoInput {
+  width: 30vw;
+  height: 4vh;
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5vw;
+  font-family: noto;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-bottom: 3%;
+}
+
+.reverse {
+  background-color: white !important;
+  color: black !important;
+  border: black solid 1px !important;
+}

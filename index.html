@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Skyrimtum</title>
+  </head>
+  <body>
+    <div class="filter">
+      <div class="container">
+        <form class="hidden" id="login-form">
+          <img class="hey" src="img/hey.jpg" />
+          <h2 class="typo-b">Hey, you. You're finally awake.</h2>
+          <h2 class="typo-b">What's your NAME ?</h2>
+
+          <br />
+          <input
+            required
+            id="ask"
+            maxlength="15"
+            type="text"
+            pattern="[A-Z a-z]+"
+            placeholder="What is your name ?"
+          />
+          <input id="answer" type="submit" value="Answer" />
+          <br />
+          <h5 class="typo">Please write in English</h5>
+        </form>
+        <div id="greets" class="hidden">
+          <h2 id="clock">00:00</h2>
+          <div id="weather">
+            <span></span>
+            <span></span>
+          </div>
+          <h1 id="greeting" class="skyrim"></h1>
+          <h1 class="skyrim">Let's Find Easteregg</h1>
+
+          <form id="todo-form">
+            <input
+              type="text"
+              id="todoInput"
+              placeholder="Write a To Do and Press Enter"
+              required
+            />
+          </form>
+          <ul id="todo-list"></ul>
+
+          <footer>
+            <div id="quote">
+              <span></span>
+              <p></p>
+              <span></span>
+            </div>
+            <p class="dragon">created by github.com/msmb6</p>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
